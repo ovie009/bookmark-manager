@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# Design files
+/src/design
+
 # production
 /build
 
