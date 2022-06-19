@@ -1,0 +1,119 @@
+.navbar{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    height: 25px;
+}
+
+.open-sidenav, .close-sidenav{
+    background-color: transparent;
+    border: none;
+}
+
+.nav-list{
+    display: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* display: none; */
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--neutral-dark-blue-transparent);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--neutral-white);
+    transition: 350ms ease-in;
+}
+
+.sidebar-main{
+    width: 100%;
+    padding-inline: 30px;
+}
+
+.sidebar-header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-logo{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-icon-wrapper{
+    background-color: var(--neutral-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+    aspect-ratio: 1/1;
+}
+
+ion-icon{
+    font-size: 20px;
+    color: var(--neutral-dark-blue-transparent) !important;
+}
+
+.sidebar-list{
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+}
+
+.sidebar-list-items{
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: unset;
+    padding-block: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid var(--sidebar-list-seperator);
+}
+
+.sidebar-list-items button{
+    margin: 0;
+    text-decoration: none;
+    padding-block: 10px;
+    font-size: inherit;
+    width: 100%; 
+    color: var(--sidebar-button);
+    box-sizing: unset;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.sidebar-list-items:last-child button{
+    margin-top: 10px;
+    border: 2px solid var(--neutral-white);
+}
+
+.sidebar-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 50px;
+}
