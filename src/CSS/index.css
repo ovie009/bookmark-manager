@@ -13,6 +13,8 @@
 
   --sidebar-list-seperator: hsla(0, 0%, 100%, 0.25);
 
+  --shadow-color: rgba(170, 170, 170, 0.5);
+
   --neutral-white: hsl(0, 0%, 100%); 
 }
 
@@ -29,6 +31,10 @@ h1, h2, h3, h4, h5, h6{
 
 p{
   color: var(--neutral-gray);
+}
+
+button{
+  font-family: 'Rubik', sans-serif;
 }
 
 code {

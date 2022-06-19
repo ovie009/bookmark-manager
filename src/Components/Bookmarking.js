@@ -5,7 +5,7 @@ const Bookmarking = () => {
         <div className="features-content-wrapper">
             <div className="features-image-wrapper">
                 <img src={bookmarking} alt="Bookmark Illustration" />
-                <span className="main-illustration-design"></span>
+                <span className="features-illustration-design"></span>
             </div>
 
             <div className="features-text-wrapper">

@@ -1,4 +1,5 @@
-import illustration from '../images/illustration-hero.svg'
+import illustration from '../images/illustration-hero.svg';
+import '../CSS/MainSection.css';
 
 const MainSection = () => {
     return (  
@@ -13,8 +14,8 @@ const MainSection = () => {
                     <button className="chrome-cta">
                         Get it on Chrome
                     </button>
-                    <button className="chrome-cta">
-                        Get it on Chrome
+                    <button className="firefox-cta">
+                        Get it on Firefox
                     </button>
                 </div>
             </div>
