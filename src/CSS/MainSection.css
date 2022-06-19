@@ -83,5 +83,6 @@
 .firefox-cta{
     color: var(--neutral-gray);
     font-size: 15px;
+    background-color: rgba(248, 248, 248, 0.8) !important;
     font-weight: 500;
 }
