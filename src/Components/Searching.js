@@ -4,7 +4,7 @@ const Searching = () => {
     return ( 
         <div className="features-content-wrapper">
             <div className="features-image-wrapper">
-                <img src={searching} alt="Bookmark Illustration" />
+                <img src={searching} className="features-illustration"  alt="Bookmark Illustration" />
                 <span className="features-illustration-design"></span>
             </div>
 

@@ -46,7 +46,6 @@ const Navbar = () => {
                             </div>
                             BOOKMARK
                         </span>
-                        {/* <img className="sidebar-logo" src={logo} alt="Bookmark Icon" /> */}
                         <button type='button' className='close-sidenav' onClick={handleSidebar}>
                             <img src={close} alt="close icon" />
                         </button>

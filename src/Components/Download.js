@@ -1,6 +1,8 @@
 import chrome from '../images/logo-chrome.svg';
 import firefox from '../images/logo-firefox.svg';
 import opera from '../images/logo-opera.svg';
+import dottedLine from '../images/bg-dots.svg';
+import '../CSS/Download.css';
 
 const Download = () => {
 
@@ -13,10 +15,10 @@ const Download = () => {
     return ( 
         <section className="download-section">
             <div className="download-intro-wrapper">
-                <h3 className="download-heading">Features</h3>
+                <h3 className="download-heading">Download the extension</h3>
                 <p className="download-paragraph">
-                    Our aim is to make it quick and easy for you to access your favourite websites. 
-                    Your bookmarks sync between your devices so you can access them on the go.
+                    We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+                    got a favourite you’d like us to prioritize.
                 </p>
             </div>
             <div className="download-card-wrapper">
@@ -26,8 +28,12 @@ const Download = () => {
                     </div>
                     <h4 className="card-heading">{cards[0].heading}</h4>
                     <p className="card-text">{cards[0].text}</p>
-                    <hr className="card-horizontal-rule" />
-                    <button className="card-button" type="button">Add & Install Extension</button>
+                    <img src={dottedLine} alt="" />
+                    <div className="card-button-wrapper">
+                        <button className="card-button" type="button">
+                            Add & Install Extension
+                        </button>
+                    </div>
                 </div>
 
                 <div className="card">
@@ -36,8 +42,12 @@ const Download = () => {
                     </div>
                     <h4 className="card-heading">{cards[1].heading}</h4>
                     <p className="card-text">{cards[1].text}</p>
-                    <hr className="card-horizontal-rule" />
-                    <button className="card-button" type="button">Add & Install Extension</button>
+                    <img src={dottedLine} alt="" />
+                    <div className="card-button-wrapper">
+                        <button className="card-button" type="button">
+                            Add & Install Extension
+                        </button>
+                    </div>
                 </div>
                 
                 <div className="card">
@@ -46,8 +56,12 @@ const Download = () => {
                     </div>
                     <h4 className="card-heading">{cards[2].heading}</h4>
                     <p className="card-text">{cards[2].text}</p>
-                    <hr className="card-horizontal-rule" />
-                    <button className="card-button" type="button">Add & Install Extension</button>
+                    <img src={dottedLine} alt="" />
+                    <div className="card-button-wrapper">
+                        <button className="card-button" type="button">
+                            Add & Install Extension
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

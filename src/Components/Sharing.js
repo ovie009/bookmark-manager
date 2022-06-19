@@ -4,7 +4,7 @@ const Sharing = () => {
     return ( 
         <div className="features-content-wrapper">
             <div className="features-image-wrapper">
-                <img src={sharing} alt="Bookmark Illustration" />
+                <img src={sharing} className="features-illustration"  alt="Bookmark Illustration" />
                 <span className="features-illustration-design"></span>
             </div>
 
