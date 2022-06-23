@@ -48,10 +48,10 @@
     justify-content: space-between;
     align-items: center;
     min-height: 50px;
-    border-bottom: 1px solid var(--neutral-gray);
+    border-bottom: 1px solid lightgray;
     background-color: white;
     text-align: left;
-    padding-block: 10px;
+    padding-block: 20px;
 }
 
 .arrow-icon{
