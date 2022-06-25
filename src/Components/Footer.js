@@ -1,8 +1,23 @@
 import facebook from '../images/icon-facebook.svg';
 import twitter from '../images/icon-twitter.svg';
-import '../CSS/Footer.css'
+import errorIcon from '../images/icon-error.svg';
+import '../CSS/Footer.css';
+import { useState } from 'react';
 
 const Footer = () => {
+
+    const [invalidEmail, setInvalidEmail] = useState(false);
+
+    const handleEmail = () => {
+        let email = document.querySelector('#email').value
+        console.log(email);
+        if (email === '') return setInvalidEmail(true);
+        // eslint-disable-next-line
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) return  setInvalidEmail(false);
+        else return setInvalidEmail(true);
+
+    }
+     
     return ( 
         <footer>
             <div className="footer-form-wrapper">
@@ -13,8 +28,18 @@ const Footer = () => {
                     Stay up-to-date with what we're doing
                 </h2>
                 <form>
-                    <input type="email" name="email" id="email" placeholder='Enter your email address'/>
-                    <button type="button" className="form-submit">Contact us</button>
+                    <div className={invalidEmail ? 'input-wrapper error' : 'input-wrapper'}>
+                        <input type="email" name="email" id="email" placeholder='Enter your email address'/>
+                        <div className="error-wrapper">
+                            <img src={errorIcon} alt="error icon" style={{
+                            visibility: `${invalidEmail ? 'visible' : 'hidden'}`
+                        }}/>
+                        </div>
+                        <label htmlFor="email" style={{
+                            display: `${invalidEmail ? 'block' : 'none'}`
+                        }}>Whoops, make sure it's an email</label>
+                    </div>
+                    <button type="button" className="form-submit" onClick={handleEmail}>Contact us</button>
                 </form>
             </div>
             <div className="footer-base-wrapper">

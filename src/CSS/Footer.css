@@ -49,11 +49,46 @@ form{
     gap: 20px;
 }
 
+.input-wrapper{
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 5px 5px 8px 8px;
+    background-color: var(--primary-red);
+}
+
+.error-wrapper{
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    width: 15%;
+    display: grid;
+    place-content: center;
+}
+
+.error{
+    border: 1px solid var(--primary-red);
+}
+
+label{
+    border-radius: 0px 0px 8px 8px;
+    background-color: var(--primary-red);
+    width: 100%;
+    text-align: left;
+    padding: 5px 10px;
+    color: var(--neutral-white);
+    font-size: .7em;
+    font-style: italic;
+}
+
 #email{
+    box-sizing: border-box;
     height: 45px;
     padding: 0 20px;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     border: none;
+    width: 85%;
+    outline: none;
 }
 
 ::placeholder{
