@@ -1,5 +1,6 @@
 .faq-section{
     width: 100vw;
+    min-height: 100vh;
     margin: auto;
     max-width: 1440px;
     display: flex;
