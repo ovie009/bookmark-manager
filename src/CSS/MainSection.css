@@ -89,3 +89,132 @@
     background-color: rgba(248, 248, 248, 0.8) !important;
     font-weight: 500;
 }
+
+@media screen and (min-width: 768px) {
+    .main-section{
+        gap: 40px;
+    }
+
+    .main-illustration{
+        width: 80%;
+    }
+
+    .main-illustration-design{
+        width: 70%;
+    }
+
+    .main-text-wrapper{
+        padding-bottom: 0;
+    }
+
+    .main-text-wrapper p{
+        max-width: 50ch;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .main-section{
+        flex-flow: row;
+        height: calc(100vh - 100px);
+        width: 90%;
+        margin: auto;
+        gap: 0;
+    }   
+
+    .main-image-wrapper{
+        width: 50%;
+        height: 100%;
+    }
+
+    .main-text-wrapper{
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        padding-inline: 30px;
+        box-sizing: border-box;
+        align-items: flex-start;
+        padding-bottom: 100px;
+    }
+
+    
+    .main-text-wrapper h1{
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .main-text-wrapper p{
+        width: 40ch;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-inline: 0;
+        text-align: left;
+    }
+
+    .main-button-wrapper{
+        gap: 50px;
+    }
+
+    .main-button-wrapper button{
+        width: 160px;
+    }
+
+    .main-illustration{
+        width: 150%;
+    }
+    
+    .main-illustration-design{
+        height: 60%;
+        width: 70%;
+        bottom: 10%;
+        box-shadow: 200px 0 0 0 var(--primary-blue);
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .main-section{
+        width: 80%;
+    }   
+    
+    .main-illustration{
+        height: 70%;
+    }
+    
+    .main-illustration-design{
+        width: 100%;
+        left: 200px;
+        box-shadow: 300px 0 0 0 var(--primary-blue);
+    }
+
+    .main-text-wrapper{
+        padding-inline: 0px;
+        padding-right: 20px;
+    }
+    
+    .main-text-wrapper h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .main-text-wrapper p{
+        width: 35ch;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .chrome-cta, .firefox-cta{
+        font-size: 20px;
+        width: 230px !important;
+        box-sizing: unset;
+        padding: 10px 20px;
+    }
+    
+    .firefox-cta{
+        font-size: 20px;
+    }
+    
+    
+}

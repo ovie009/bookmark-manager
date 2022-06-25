@@ -109,3 +109,35 @@ form button{
     justify-content: space-evenly;
     color: var(--sidebar-button);
 }
+
+@media screen and (min-width: 768px) {  
+    .footer-form-wrapper{
+        height: fit-content;
+        padding: 50px;
+        padding-inline: 20%;
+    }
+
+    .footer-base-wrapper{
+        height: 80px;
+        flex-flow: row;
+        padding-inline: 10%;
+    }
+
+    .footer-list{
+        flex-flow: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    form{
+        flex-flow: row;
+    }
+
+    form input{
+        width: 70%;
+    }
+
+    form button{
+        width: 30%;
+    }
+}

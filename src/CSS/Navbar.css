@@ -118,3 +118,51 @@ ion-icon{
     height: 100px;
     gap: 50px;
 }
+
+/* Tablet Styling */
+@media screen and (min-width: 768px) {
+    
+    .nav-list{
+        display: flex;
+        list-style: none;
+        text-transform: uppercase;
+        align-items: center;
+    }
+
+    .nav-list-items{
+        padding: 10px 25px;
+        border-radius: 5px;
+        font-size: .8em;
+        letter-spacing: 1px;
+    }
+
+    .nav-list li:last-child{
+        background-color: var(--primary-red);
+        color: var(--neutral-white);
+    }
+
+    .open-sidenav{
+        display: none;
+    }
+}
+    
+@media screen and (min-width: 1366px) {
+    .navbar{
+        width: 90%;
+        margin: auto;
+    }
+
+    .sidebar{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .navbar{
+        width: 80%;
+    }
+
+    .nav-list-items{
+        font-size: 1em;
+    }
+}

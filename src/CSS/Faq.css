@@ -24,6 +24,7 @@
     margin-block: 20px;
     padding: 20px;
     max-width: 35ch;
+    margin: auto;
 }
 
 .faq-accordion-wrapper{
@@ -82,4 +83,52 @@
     border: none;
     border-radius: 5px;
     box-shadow: 0 3px 5px 0px var(--shadow-color);
+}
+
+@media screen and (min-width: 768px) {
+    .faq-paragraph{
+        max-width: 50ch;
+    }
+
+    .faq-accordion-wrapper{
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .faq-paragraph{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .faq-heading{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    .faq-paragraph{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+    .faq-heading{
+        font-size: 35px;
+    }
+
+    .faq-accordion-wrapper{
+        max-width: 800px;
+    }
+
+    .faq-subheading, .faq-text{
+        font-size: 20px;
+    }
+
+    .faq-button{
+        height: 50px;
+        padding-inline: 20px;
+        font-weight: 500;
+        font-size: 20px;
+    }
 }
