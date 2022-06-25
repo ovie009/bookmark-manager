@@ -6,7 +6,8 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshot Desktop](#screenshot-destop)
+  - [Screenshot Mobile](#screenshot-mobile)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,14 +27,18 @@ Users should be able to:
   - The input field is empty
   - The email address is not formatted correctly
 
-### Screenshot
+### Screenshot Desktop
 
-![](./screenshot.jpg)
+![](./screenshot-desktop.png)
+
+### Screenshot Mobile
+
+![](./screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ovie009/bookmark-manager)
+- Live Site URL: [Add live site URL here](https://ovie-bookmark-manager.netlify.app/)
 
 ## My process
 
@@ -55,6 +60,6 @@ const proudOfThisFunc = () => {
 ```
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Iffie Ovie](https://iffieovie.netlify.com)
+- Frontend Mentor - [@ovie009](https://www.frontendmentor.io/profile/ovie009)
+- Twitter - [@iffieOvie](https://www.twitter.com/iffieoive)
